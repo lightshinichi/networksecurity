@@ -27,7 +27,7 @@ import mlflow
 from urllib.parse import urlparse
 
 import dagshub
-#dagshub.init(repo_owner='', repo_name='networksecurity', mlflow=True)
+dagshub.init(repo_owner='rameshn', repo_name='networksecurity', mlflow=True)
 
 # os.environ["MLFLOW_TRACKING_URI"]=""
 # os.environ["MLFLOW_TRACKING_USERNAME"]=""
